@@ -2,7 +2,7 @@
 
 ```Dockerfile
 # The base image
-FROM python:3.7
+FROM python:3.10
 
 # Defines an input with a default
 ARG user1=someuser

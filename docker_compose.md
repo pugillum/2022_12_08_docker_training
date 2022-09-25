@@ -50,7 +50,7 @@ services:
 ## Multi-stage builds
 
 ```Dockerfile
-FROM python:3.7-alpine as base
+FROM python:3.10-alpine as base
 WORKDIR /code
 COPY requirements.txt .
 RUN pip install -r requirements.txt

@@ -6,7 +6,7 @@ Here's a list of commands demonstrated during part 2 of the course:
 docker
 
 # run
-docker run --rm -ti python:3.7
+docker run --rm -ti python:3.10
 
 # list all docker images
 docker images
