@@ -1,7 +1,7 @@
 # Exercise 02
 
 Use the Docker CLI to run a container that:
-- retrieves the image `basph/sunnybikes`
+- retrieves the image `pugillum/sunnybikesflask`
 - mounts the file data.txt `/root/data`
 - sets environment variable `DATA_PATH` to the file mounted in `/root/data`
 - sets environment variable `FLASK_PORT` to `8080`
