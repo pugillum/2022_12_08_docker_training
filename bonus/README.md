@@ -7,8 +7,8 @@ Feel free to pick more than one.
 2. [Investigate Podman (or other technologies) as a replacement for Docker Desktop](#Investigate Podman (or other technologies) as a replacement for Docker Desktop) 🚶
 3. [Improve the training material on multi-stage builds](#Improve the training material on multi-stage builds) 🏙
 4. [Using Poetry in a container](#Using Poetry in a container) 🕊
-5. [Security best practices](#Security best practices)
-6. [Building for different chipsets](#Building for different chipsets)
+5. [Security best practices](#Security best practices) 🔐
+6. [Building for different chipsets](#Building for different chipsets) 🍟
 
 More details below 👇
 
@@ -114,3 +114,4 @@ libraries not working as expected
 
 - Formulate a paragraph to explain what the issue is
 - What does this mean in terms of building containers on one chipset for environments using other chipsets, e.g. building on amd64 for arm64?
+- What's buildx all about?
